@@ -7,7 +7,6 @@ int main()
     float time;
     printf("Wie gross ist dein Download (in gb)\n");
     scanf("%f", &gbsize);
-    printf("Wie schnell ist dein Internet ungefaehr (mb)\n");
     time = gbsize * 1000.0 / 3.5 / 60.0 / 60.0;
     int o1 = (int) time;
     float f1 = (float) o1;
